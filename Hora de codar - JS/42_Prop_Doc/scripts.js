@@ -8,3 +8,4 @@ console.log(document.links[0])
 
 console.log(document.URL)
 console.log(document.title)
+document.title = 'aula 42'

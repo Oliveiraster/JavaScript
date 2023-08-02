@@ -3,13 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Criando elemento</title>
+    <title>OnClick</title>
+
+    <style>
+        #btn{
+            background-color: greenyellow;
+        }
+        h1{
+            color: purple;
+        }
+        .hide{
+            
+            display: none;
+            transition: 5s;
+        
+        }
+    </style>
 </head>
 <body>
+    <div class="teste"></div>
     <h1 id="title" > Título principal</h1>
+    <p class="hide">Algum texto</p>
     <h2 class="subtitle">Este é o segundo paragrafo!</h2>
-    <p id="paragrafo">Este é o paragráfo! <span>Testando</span>
-    </p>
+
+    <div>
+        <button id="btn">Clica em Mim</button>
+    </div>
     
     <ul id="lista">
         <li class="item" >Item 1</li>
@@ -26,6 +45,8 @@
         <li class="item" >Item 10</li>
     </ul>
     <div id="container"></div>
+    <p>Testando</p>
+    <button id="btn" >Teste</button>
     <script src="scripts.js"></script>
 </body>
 </html>
